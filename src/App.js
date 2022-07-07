@@ -7,7 +7,7 @@ function App() {
   return (
     <main>
       <section className='container'>
-        <h3>{character.length} of Today's Heroes!</h3>
+        <h2 className='heading'>{character.length} of Today's Heroes!</h2>
         <List character={character} />
         <button className='clear' onClick={() => setCharacter([])}>clear all</button>
       </section>

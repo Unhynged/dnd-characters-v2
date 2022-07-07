@@ -197,7 +197,7 @@ main {
   margin-bottom: 0;
 }
 
-.container button {
+.clear {
   color: var(--clr-white);
   display: block;
   width: 100%;
@@ -211,4 +211,19 @@ main {
   border-radius: var(--radius);
   outline: 1px solid rgba(242, 138, 178, 0.8);
   cursor: pointer;
+}
+.about {
+  color: var(--clr-white);
+    display: block;
+    width: 40%;
+    border-color: transparent;
+    background: var(--clr-green-dark);
+    margin: 1rem auto 0 auto;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    padding: 0.5rem 0;
+    letter-spacing: var(--spacing);
+    border-radius: var(--radius);
+    outline: 1px solid rgba(242, 138, 178, 0.8);
+    cursor: pointer;
 }
